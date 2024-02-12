@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
-
+        //adskljfaslkdfj
         fillItems();
 
         adapter.loadItems(items);
